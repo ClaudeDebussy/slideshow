@@ -61,7 +61,6 @@ html {
   height: 100%;
   display: flex;
   position: relative;
-  right: var(--slideshow-width);
 }
 
 .photos img {
