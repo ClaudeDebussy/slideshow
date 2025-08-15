@@ -1,0 +1,34 @@
+html {
+  --slideshow-width: 500px;
+  --slideshow-height: 500px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+  background-color: blueviolet;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow {
+  width: var(--slideshow-width);
+  height: var(--slideshow-height);
+  background-color: azure;
+  overflow: hidden;
+}
+
+.photos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
